@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+}
+h1, h2{
+    font-family: 'Dancing Script', cursive, sans-serif;
+}
+p, a{
+    font-family: 'Indie Flower', cursive, sans-serif;
+    font-weight: bold;
+}
+body{
+    background: url('../imagenes/fondo-murcielago2.jpg');
+}
+header{
+    background: rgb(16, 16, 16);
+    min-height: 280px;
+}
+.cabecera{
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cabecera h1{
+    color: white;
+    padding-left: 10px;
+    font-size: 6em;
+    text-shadow: 3px 3px 2px gray;
+}
+.img_cabecera{
+    background: white;
+    width: 180px;
+    height: 220px;
+    margin: 0 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    box-shadow: 0 1px 25px white;
+}
+.img_cabecera img{
+    width: 180px;
+    padding: 15px 20px;
+    border-radius: 40%;
+}
+.navegacion{
+    background: rgb(16, 16, 16);
+    border: 1px solid rgba(255, 255, 255, 0.241);
+}
+.navegacion ul{
+    margin: 10px 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.navegacion li{
+    list-style-type: none;
+}
+.navegacion a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+.navegacion a:hover{
+    color: #fe9998;
+}
+section{
+    margin: 20px 150px;
+    background: white;
+    border: 2px solid rgb(16, 16, 16);
+    border-radius: 20px;
+    text-align: center;
+}
+h2{
+    font-size: 2.5em;
+    text-shadow: 2px 2px 2px gray;
+}
+section p{
+    margin: 0 50px 20px;
+    font-size: 1em;
+    text-align: left;
+    font-weight: bold;
+    line-height: 1.3em;
+    letter-spacing: 1px;
+}
+section p:last-child{
+    margin-bottom: 50px;
+}
+.mur_colgando{
+    width: 400px;
+    height: 400px;
+}
+.mur_importante{
+    width: 500px;
+    height: 400px;
+}
+footer{
+    background: rgb(16, 16, 16);
+    color: white;
+    height: 100px;
+    font-size: 1.3em;
+    text-align: center;
+    padding: 10px 0;
+}
+/* Css de Arte Murcielago */
+.imagenes img{
+    width: 250px;
+    height: 350px;
+    padding: 8px 2px 20px;
+}
+.flex{
+    margin: 10px 50px;
+    display: flex;
+    align-items: center;
+}
+.flex img{
+    height: 300px;
+    width: 200px;
+}
+/* Css Contacto */
+.h2_con{
+    margin: 30px 80px 20px;
+    font-weight: 400;
+    text-shadow: 1px 1px 2px gray;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input_form{
+    width: 400px;
+    padding: 10px;
+}
+.textarea{
+    height: 250px;
+}
+.checkbox{
+    margin: 20px 0;
+}
+.submit{
+    width: 400px;
+    margin-bottom: 40px;
+    padding: 10px 0;
+    background: rgb(48, 193, 179);
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    border: 1px solid white;
+}
+.submit:hover{
+    background: rgb(238, 237, 234);
+    color: rgb(48, 193, 179);
+    border: 1px solid rgb(48, 193, 179);
+}

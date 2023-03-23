@@ -1,0 +1,125 @@
+@media screen and (max-width: 1350px){
+    /* Media Query arte murcielago */
+    .imagenes{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        justify-items: center;
+    }
+}
+@media screen and (max-width: 1200px){
+    /* Media Query index */
+    .cabecera{
+        padding: 0;
+        height: 250px;
+    }
+    .img_cabecera{
+        margin-right: 0;
+        padding-right: 0;
+    }
+    .cabecera h1{
+        padding-left: 5px;
+        margin-left: 0;
+        font-size: 5em;
+        font-weight: bolder;
+        text-align: center;
+    }
+    section{
+        margin: 20px 80px;
+    }
+    /* Media Query contacto */
+    .h2_con{
+        margin: 30px 40px 20px;
+        font-weight: 400;
+        text-shadow: 1px 1px 2px gray;
+    }
+    
+}
+@media screen and (max-width: 950px){
+    /* Media Query arte murcielago */
+    .flex p{
+        font-size: 0.9em;
+    }
+}
+@media screen and (max-width: 750px){
+    /* Media Query index */
+    .img_cabecera{
+        margin: 5px 0 5px 10px;
+    }
+    .cabecera h1{
+        margin: 0;
+        padding: 0;
+    }
+    h2{
+        font-size: 2em;
+    }
+    /* Media Query arte murcielago */
+    .flex p{
+        margin-left: 20px;
+        font-size: 0.8em;
+    }
+    /* Media Query contacto */
+    .h2_con{
+        margin: 30px 30px 20px;
+        font-size: 1.9em;
+    }
+}
+@media screen and (max-width: 580px){
+    /* Media Query index */
+    .cabecera{
+        height: 300px;
+        width: auto;
+    }
+    .cabecera h1{
+        font-size: 3.5em;
+    }
+    .navegacion ul{
+        margin: 10px 0;
+        padding: 0 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .navegacion a{
+        font-size: 1.3em;
+    }
+    section{
+        margin: 20px 40px;
+    }
+    section p{
+        margin: 0 20px 20px;
+        font-weight: 400;
+    }
+    .mur_colgando{
+        width: 100%;
+        height: 400px;
+        border-radius: 17px 17px 0 0;
+    }
+    .mur_importante{
+        width: 100%;
+        height: 400px;
+        border-radius: 17px 17px 0 0;
+    }
+    /* Media Query arte murcielago */
+    .imagenes{
+        display: grid;
+        grid-template-columns: 100%;
+        justify-items: center;
+    }
+    .flex{
+        flex-direction: column;
+    }
+    .flex p{
+        margin-left: 20px;
+        font-size: 1em;
+    }
+    /* Media Query contacto */
+    .h2_con{
+        margin: 20px;
+        font-size: 1.5em;
+    }
+    .input_form{
+        width: 300px;
+    }
+    .submit{
+        width: 300px;
+    }
+}
