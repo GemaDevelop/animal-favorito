@@ -85,7 +85,7 @@ section p:last-child{
     margin-bottom: 50px;
 }
 .mur_colgando{
-    width: 400px;
+    width: 500px;
     height: 400px;
 }
 .mur_importante{
@@ -150,4 +150,12 @@ form{
     background: rgb(238, 237, 234);
     color: rgb(48, 193, 179);
     border: 1px solid rgb(48, 193, 179);
+}
+
+/* Css experiencia */
+.main_exp{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+
 }
