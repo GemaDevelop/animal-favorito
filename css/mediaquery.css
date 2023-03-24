@@ -41,10 +41,13 @@
     }
 
      /* Media Query experiencias */
-     .main_exp{
-        
-        grid-template-columns: 1fr;
-        
+     .main_exp.grid_exp{        
+        grid-template-columns: 1fr;        
+    }
+
+    /* Media Query experiencias 1 y 2 */
+    .main_exp.grid_exp1, .main_exp.grid_exp2{        
+        grid-template-columns: 100%;
     }
 }
 @media screen and (max-width: 750px){
