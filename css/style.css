@@ -157,5 +157,31 @@ form{
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
+}
 
+.main_exp img{
+    filter: grayscale(100%);
+    transition: 0.5s;
+}
+
+.main_exp img:hover{
+    filter: grayscale(0);
+}
+
+.button_exp a{
+    display: inline-block;
+    text-decoration: none;
+    background: black;
+    color: #fff;
+    font-size: 1.5em;
+    border-radius: 15px;    
+    padding:10px 30px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+
+.button_exp a:hover{
+    color: #ff9698;
+    transform: scale(1.1);
 }

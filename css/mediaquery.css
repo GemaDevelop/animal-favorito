@@ -39,6 +39,13 @@
     .flex p{
         font-size: 0.9em;
     }
+
+     /* Media Query experiencias */
+     .main_exp{
+        
+        grid-template-columns: 1fr;
+        
+    }
 }
 @media screen and (max-width: 750px){
     /* Media Query index */
