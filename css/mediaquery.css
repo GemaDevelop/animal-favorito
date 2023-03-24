@@ -59,6 +59,13 @@
         margin: 0;
         padding: 0;
     }
+    .navegacion ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .navegacion li{
+        margin: 8px 0;
+    }
     h2{
         font-size: 2em;
     }
@@ -85,14 +92,14 @@
     .navegacion ul{
         margin: 10px 0;
         padding: 0 20px;
-        display: flex;
-        justify-content: space-between;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
     .navegacion a{
         font-size: 1.3em;
     }
     section{
-        margin: 20px 40px;
+        margin: 20px 30px;
     }
     section p{
         margin: 0 20px 20px;
@@ -116,9 +123,11 @@
     }
     .flex{
         flex-direction: column;
+        margin: 10px 0;
     }
     .flex p{
-        margin-left: 20px;
+        margin-top: 20px;
+        padding: 0;
         font-size: 1em;
     }
     /* Media Query contacto */

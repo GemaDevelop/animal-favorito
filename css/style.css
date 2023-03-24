@@ -106,6 +106,9 @@ footer{
     height: 350px;
     padding: 8px 2px 20px;
 }
+section{
+    margin: 20px 5px;
+}
 .flex{
     margin: 10px 50px;
     display: flex;
