@@ -40,13 +40,14 @@
         <section>
             <h2 class="h2_con">Si lo desea puede enviarnos información que le gustaría publicar en nuestra página sobre nuestro animal favorito el murciélago (anécdotas personales, información de interes...) a continuacion</h2>
             <form action="" >
+                <p><small>Los campos con * son obligatorios</small></p>
                 <label for="nombre-user"></label>
-                <input type="text" name="nombre-usuario" id="nombre-user" class="input_form" placeholder="Nombre" required>
+                <input type="text" name="nombre-usuario" id="nombre-user" class="input_form" placeholder="* Nombre" required>
                 <label for="consulta-user"></label> <br>
-                <textarea name="consulta" id="consulta-user" class="input_form textarea" placeholder="Comparte tu información" required></textarea>
+                <textarea name="consulta" id="consulta-user" class="input_form textarea" placeholder="* Comparte tu información" required></textarea>
                 <div class="checkbox">
                     <input type="checkbox" name="clausulas" id="aceptar-clausulas" required>
-                    <label for="aceptar-clausulas">Acepto la <a href="#">Politica de Privacidad</a></label>
+                    <label for="aceptar-clausulas">* Acepto la <a href="#">Politica de Privacidad</a></label>
                 </div>
                 <input type="submit" value="ENVIAR INFORMACION" class="submit">
             </form>
